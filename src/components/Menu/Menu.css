@@ -1,0 +1,9 @@
+.menu {
+    width: 100%;
+    background-color: whitesmoke;
+    padding: 10px;
+
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
