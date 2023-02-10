@@ -1,13 +1,17 @@
 import React from 'react'
 import './App.css';
-import Menu from './Menu/Menu';
+import ItemListContainer from './ItemListContainer/ItemListContainer';
+import Navbar from './Navbar/Navbar';
 
 const App = () => {
   return (
     <>
       <header>
-        <Menu />
+        <Navbar />
       </header>
+      <main>
+        <ItemListContainer greeting="Aquí se cargarán los productos." />
+      </main>
     </>
   )
 }

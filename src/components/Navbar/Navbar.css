@@ -1,0 +1,40 @@
+nav {
+    width: 100%;
+    padding: 1em 0;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1em;
+
+    background-color: whitesmoke;
+}
+
+nav h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+    text-decoration: overline;
+}
+
+nav ul {
+    list-style-type: none;
+
+    display: flex;
+    align-items: center;
+    gap: 3em;
+}
+
+nav ul li {
+    font-size: 1.1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover {
+    -webkit-text-stroke: 1px black;
+}
