@@ -1,0 +1,61 @@
+.itemDetailContainer {
+    width: 90%;
+    margin: 3em auto;
+
+    display: flex;
+    align-items: flex-start;
+    gap: 1em;
+}
+
+.itemDetailContainer .itemImg {
+    background-color: white;
+    padding: 1em;
+    border-radius: 10px;
+
+    width: 50%;
+    height: 30em;
+    object-fit: contain;
+}
+
+.itemDetailContainer .itemInfo {
+    width: 50%;
+    padding: 1em 0 1em 1em;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3em;
+}
+
+.itemDetailContainer .itemInfo h2 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.itemDetailContainer .itemInfo p {
+    width: 80%;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.itemDetailContainer .itemInfo h3 {
+    font-size: 2rem;
+}
+
+.itemDetailContainer .itemInfo div {
+    font-size: 1.1rem;
+    color: black;
+
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    border: 2px solid white;
+
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.itemDetailContainer .itemInfo div:hover {
+    color: white;
+    background-color: black;
+}

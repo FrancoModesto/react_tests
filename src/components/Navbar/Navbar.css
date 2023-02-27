@@ -1,9 +1,10 @@
 nav {
-    position: fixed;
+    z-index: 1;
+
+    position: sticky;
     top: 0;
     left: 0;
 
-    width: 100%;
     padding: 1em 0;
 
     display: flex;
@@ -12,14 +13,23 @@ nav {
     justify-content: space-around;
     gap: 1em;
 
-    background-color: whitesmoke;
+    background-color: white;
 }
 
-nav h1 {
+nav .brand {
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+nav .brand h1 {
     font-size: 2rem;
-    font-weight: bold;
+    font-weight: normal;
     color: black;
     text-decoration: overline;
+}
+
+nav .brand:hover {
+    transform: scale(1.025);
 }
 
 nav ul {
