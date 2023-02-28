@@ -7,7 +7,7 @@
     justify-content: center;
     gap: 1em;
 
-    background-color: black;
+    background-color: white;
     border-radius: 5px;
     border: 2px solid black;
 
@@ -16,16 +16,16 @@
 }
 
 .cartWidget:hover {
-    background-color: white;
+    background-color: black;
 }
 
 .cartWidget:hover .number {
-    color: black;
+    color: white;
 }
 
 .cartWidget .number {
     font-size: 1.5rem;
-    color: white;
+    color: black;
 }
 
 .cartWidget .icon {

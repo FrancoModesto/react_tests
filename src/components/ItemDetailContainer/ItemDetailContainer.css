@@ -15,6 +15,12 @@
     width: 50%;
     height: 30em;
     object-fit: contain;
+
+    transition: all 0.5s ease;
+}
+
+.itemDetailContainer .itemImg:hover {
+    padding: 0.5em;
 }
 
 .itemDetailContainer .itemInfo {
@@ -44,10 +50,10 @@
 
 .itemDetailContainer .itemInfo div {
     font-size: 1.1rem;
-    color: black;
+    color: white;
 
     padding: 10px;
-    background-color: white;
+    background-color: black;
     border-radius: 5px;
     border: 2px solid white;
 
@@ -56,6 +62,6 @@
 }
 
 .itemDetailContainer .itemInfo div:hover {
-    color: white;
-    background-color: black;
+    color: black;
+    background-color: white;
 }

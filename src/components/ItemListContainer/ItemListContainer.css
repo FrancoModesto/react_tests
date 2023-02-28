@@ -58,10 +58,10 @@
     text-decoration: none;
 
     font-size: 1.1rem;
-    color: white;
+    color: black;
 
     padding: 10px;
-    background-color: black;
+    background-color: white;
     border-radius: 5px;
     border: 2px solid black;
 
@@ -69,6 +69,6 @@
 }
 
 .items li a:hover {
-    color: black;
-    background-color: white;
+    color: white;
+    background-color: black;
 }
